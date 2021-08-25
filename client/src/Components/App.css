@@ -1,0 +1,20 @@
+.roundBox {
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.btn.mainButton {
+  background-color:#fcf799;
+}
+
+.btn.mainButton:hover {
+  background-color: black;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.btn.subjectButton:hover {
+  background-color: black;
+}
