@@ -1,16 +1,15 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Home from '../pages/Home/Home'
-import FoodDetails from '../pages/Foods/FoodDetails'
+import SearchPage from '../pages/SearchPage/SearchPage'
 
-const Routes = ({ handleAlert }) => {
+
+const Routes = () => {
 
     return (
         <Switch>
-
-            <Route path="/" exact render={props => <Home history={props.history}/>} />
-            <Route path="/detalles/:barcode" render={props => <FoodDetails {...props}/>} />
-
+            <Route path="/" exact render={props => <Home history={props.history} />} />
+            <Route path="/app" exact render={props => <SearchPage history={props.history} />} />
         </Switch>
     )
 }

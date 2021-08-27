@@ -4,7 +4,11 @@
 }
 
 .btn.mainButton {
-  background-color:#fcf799;
+  background-color: #25ac92;
+  color: white;
+  display: block;
+  width: 100px;
+  margin: 0 auto;
 }
 
 .btn.mainButton:hover {

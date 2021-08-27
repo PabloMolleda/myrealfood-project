@@ -1,10 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.css'
 import React from 'react'
 import { Component } from 'react'
 import Routes from './routes/Routes'
 import Alert from './shared/Alert'
 import Navigation from './layout/Navigation'
-import './App.css'
 
 
 class App extends Component {
@@ -16,7 +16,6 @@ class App extends Component {
       alertText: ''
     }
   }
-
 
   handleAlert(alertText, showAlert = true) {
     this.setState({ showAlert, alertText })
