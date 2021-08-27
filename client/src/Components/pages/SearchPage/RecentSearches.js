@@ -16,7 +16,7 @@ class RecentSearches extends Component {
         }
     }
 
-    
+
     showFood = () => {
 
         axios
@@ -26,12 +26,10 @@ class RecentSearches extends Component {
                     result: response.data.product
                 })
                 console.log('esto es lo que se guarda en el result', response.data.product)
-                console.log('esto es lo que busca', this.state.search)
+                console.log('esto es lo que busca al final', this.state.search)
             })
             .catch(err => console.log('Este es el error', err))
     }
-
-    
 
 
     render() {
@@ -67,11 +65,13 @@ class RecentSearches extends Component {
                                                     </Col>
                                                     <Col md={2}>
                                                         <Button variant="outline-dark" className="mainButton roundBox"
-                                                            onClick={() => {
-                                                                this.setState({ search: elm.code, showModal: true })
-                                                                
-                                                                this.showFood()
-                                                                
+                                                            onClick={
+                                                                async () => {
+
+                                                                await this.setState({ search: elm.code, showModal: true })
+
+                                                                await this.showFood()
+
                                                             }}>Ver producto</Button>
                                                     </Col>
                                                 </Row>
