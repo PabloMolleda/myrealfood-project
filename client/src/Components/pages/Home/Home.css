@@ -1,0 +1,39 @@
+#mainContent {
+    background-color: #25ac92;
+    padding: 100px 0;
+}
+
+#mainContent h1, p {
+    color: white;
+}
+
+#mainContent h1 {
+    font-weight: bolder;
+    font-size: 4.5em;
+}
+
+#mainContent p {
+    letter-spacing: 1.5px;
+    font-weight: 200;
+    font-size: 2em;
+}
+
+.storeIcon {
+    height: 40px;
+}
+
+.deviceIcon {
+    height: 500px;
+}
+
+.btn.homeButton {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    background-color: white;
+}
+
+.btn.homeButton:hover {
+    background-color: black;
+    color: white;
+}

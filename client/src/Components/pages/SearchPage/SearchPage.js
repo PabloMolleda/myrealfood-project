@@ -72,7 +72,7 @@ class SearchPage extends Component {
                     </Row>
                 </Container>
 
-                <Modal show={this.state.showModal} onHide={() => this.setState({ showModal: false })} >
+                <Modal size='xl' show={this.state.showModal} onHide={() => this.setState({ showModal: false })} >
                     <FoodDetails props={this.state.result} closeModal={() => this.setState({ showModal: false })} />
                 </Modal>
 

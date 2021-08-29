@@ -8,7 +8,7 @@ const Navigation = () => {
     return (
 
         <>
-            <Navbar expand="lg" className="justify-items-between">
+            <Navbar expand="sm" className="justify-items-around">
                 <Navbar.Brand as={Link} to="/">
                     <img src={logo} alt="logo" style={{ width: '200px' }} />
                 </Navbar.Brand>

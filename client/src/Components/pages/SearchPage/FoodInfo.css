@@ -1,0 +1,17 @@
+#productInfo img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#productInfo h1, h2 {
+    font-size: 1.2em;
+}
+
+#productInf table {
+    padding: 0 50px;
+}
+
+#nutritionTable {
+    font-size: 1em;
+}

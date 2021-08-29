@@ -22,3 +22,14 @@
 .btn.subjectButton:hover {
   background-color: black;
 }
+
+.goBackBtn {
+  background-color: white;
+  margin: 50px 0px 0 50px;
+  width: 3%;
+  border: none;
+}
+
+.goBackBtn img {
+  width: 100%;
+}
